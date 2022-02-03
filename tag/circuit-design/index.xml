@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circuit Design | Dias Azhigulov</title>
+    <link>https://dazhigulov.github.io/tag/circuit-design/</link>
+      <atom:link href="https://dazhigulov.github.io/tag/circuit-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Circuit Design</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Dias Azhigulov</copyright><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dazhigulov.github.io/media/icon_hu1e43e0d030db4ca13795d555e30f369c_11698_512x512_fill_box_center_3.png</url>
+      <title>Circuit Design</title>
+      <link>https://dazhigulov.github.io/tag/circuit-design/</link>
+    </image>
+    
+    <item>
+      <title>20 Gbps Silicon Photonics link</title>
+      <link>https://dazhigulov.github.io/project/sip-link/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/sip-link/</guid>
+      <description>&lt;p&gt;Designed 20 Gbps SiP data transmission link in Cadence Virtuoso (65 nm). The link consists of CW laser, CMOS driver, MRM, PD, and TIA. SiP devices are modelled in Verilog-A. The driver has cascode common-source topology whereas the TIA is based on 3-stage inverters. Energy efficiency of 1.98 pJ/bit was achieved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Voltage Controlled Oscillator (VCO)</title>
+      <link>https://dazhigulov.github.io/project/vlsi-vco/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/vlsi-vco/</guid>
+      <description>&lt;p&gt;This work compares the performance of three different VCO circuits, namely: variable resistor and varactor based. Below are the results of Cadence simulations done at different corners.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-variable-resistor-based-vco-schematic-in-cadence-virtuoso&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/vlsi-vco/varres_hu24b4f6e4fd513a902ef66a3d43f6071d_557441_a03d91103cf2e0c3369cacc3ab0c75c7.webp 400w,
+               /project/vlsi-vco/varres_hu24b4f6e4fd513a902ef66a3d43f6071d_557441_871fc14f716271c6700e07ce94d0ac84.webp 760w,
+               /project/vlsi-vco/varres_hu24b4f6e4fd513a902ef66a3d43f6071d_557441_1200x1200_fit_q100_h2_box_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/vlsi-vco/varres_hu24b4f6e4fd513a902ef66a3d43f6071d_557441_a03d91103cf2e0c3369cacc3ab0c75c7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;450&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Variable resistor based VCO schematic in Cadence Virtuoso.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Variable resistor based circuit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SS corner:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$f_{min}$ = 4.18 MHz, $f_{max}$ = 1.25 GHz, $P$ = 2.33 mW, $K_{VCO}$ = 23.56 GHz/V&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FF corner:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$f_{min}$ = 32.67 MHz, $f_{max}$ = 1.95 GHz, $P$ = 2.29 mW, $K_{VCO}$ = 28.73 GHz/V&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-varactor-based-vco-schematic-in-cadence-virtuoso&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/vlsi-vco/varactor_hu142d32f41bacdf8502459588af9eed02_639577_f8ca497b8e8fd1ee5f7b87521370c6a3.webp 400w,
+               /project/vlsi-vco/varactor_hu142d32f41bacdf8502459588af9eed02_639577_93169172fe2f0c1e0f477d3f796165cf.webp 760w,
+               /project/vlsi-vco/varactor_hu142d32f41bacdf8502459588af9eed02_639577_1200x1200_fit_q100_h2_box_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/vlsi-vco/varactor_hu142d32f41bacdf8502459588af9eed02_639577_f8ca497b8e8fd1ee5f7b87521370c6a3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;255&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Varactor based VCO schematic in Cadence Virtuoso.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+Varactor based circuit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SS corner:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$f_{min}$ = 1.41 GHz, $f_{max}$ = 2.60 GHz, $P$ = 1.86 mW, $K_{VCO}$ = 15.67 GHz/V&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FF corner:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$f_{min}$ = 1.92 GHz, $f_{max}$ = 3.79 GHz, $P$ = 2.66 mW, $K_{VCO}$ = 22.60 GHz/V&lt;/p&gt;
+&lt;p&gt;Overall, it can be seen that they both have their own advantages and disadvantages and the choice of which device to use depends on the application (e.g. for low power devices varactors are preferred).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6T SRAM memory cell design and layout</title>
+      <link>https://dazhigulov.github.io/project/vlsi-sram/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/vlsi-sram/</guid>
+      <description>&lt;p&gt;Implementation of SRAM circuit with write drivers. The circuit can discharge the bit line at 100 mV per 297 ps. This circuit also meets write operations requirements as the pass gate is able to pull the internal node (q_bar) well below $\frac{V_s}{2}$, which was found to be 0.278V. Q_bar is completely pulled down to 0 and q is pulled up to the maximum value of 1.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-sram-schematic-in-cadence-virtuoso&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/vlsi-sram/sram_sch_hueae2d33f470fdd5a6b18c848f738b086_634803_c3cc9b2d3476e19639029f3ce412ed78.webp 400w,
+               /project/vlsi-sram/sram_sch_hueae2d33f470fdd5a6b18c848f738b086_634803_a9c14925fafe53584bbdb3fb6b93145f.webp 760w,
+               /project/vlsi-sram/sram_sch_hueae2d33f470fdd5a6b18c848f738b086_634803_1200x1200_fit_q100_h2_box_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/vlsi-sram/sram_sch_hueae2d33f470fdd5a6b18c848f738b086_634803_c3cc9b2d3476e19639029f3ce412ed78.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;363&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      SRAM schematic in Cadence Virtuoso.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variable frequency divider</title>
+      <link>https://dazhigulov.github.io/project/vlsi-divider/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/vlsi-divider/</guid>
+      <description>&lt;p&gt;Implementation of the frequency divider involves multi-modulus prescaler and control qualifier. The device support division in the range from 8 to 23 and also includes custom logic circuit designed through FSM to switch between different divisions, leading to different signal frequency at the output.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clock distribution network</title>
+      <link>https://dazhigulov.github.io/project/vlsi-clocking/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/vlsi-clocking/</guid>
+      <description>&lt;p&gt;The objective of this work is to minimize the delay, rise and fall times, skew, and power consumption of the clock signal distribution system. In the process, we also provide analytical models for the system behavior and optimize it to achieve the design constraints. We perform logical effort analysis to find the optimal number of stages between input clock and loads. Afterwards, each buffer stage can be properly sized to reduce the clock skew across different loads.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Error Amplifier in LDO</title>
+      <link>https://dazhigulov.github.io/project/ldo/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/ldo/</guid>
+      <description>&lt;p&gt;This project considers two distinct error amplifier configurations (simple differential pair and cascode configuration) in the context of LDOs. Both of them were theoretically analyzed with proper explanations and the expectations were stated as well. In order to verify the theory, the circuits were simulated to obtain their frequency response, transfer function, and to study the effect of common mode bias on the output voltage. Thus, by contrasting between simple differential amplifier and its cascoded version, one can deduce that there are clear tradeoffs when choosing among them. While the former has greater 3-dB frequency and more voltage legroom, it is inferior to the cascoded version of differential amplifer in terms of other parameters. The latter as seen from the simulations provided superior DM gain while lowering the CM-DM gain. Hence it is reasonable to suggest that the choice should be given to the one which best fits the application.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
