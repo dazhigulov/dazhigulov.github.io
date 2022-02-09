@@ -7,7 +7,7 @@
     <description>Circuit Design</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Dias Azhigulov</copyright><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dazhigulov.github.io/media/icon_hu1e43e0d030db4ca13795d555e30f369c_11698_512x512_fill_box_center_3.png</url>
+      <url>https://dazhigulov.github.io/media/icon_hu450bbc491446fe100d8d019233f8ea2d_6404_512x512_fill_box_center_3.png</url>
       <title>Circuit Design</title>
       <link>https://dazhigulov.github.io/tag/circuit-design/</link>
     </image>
@@ -18,6 +18,15 @@
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://dazhigulov.github.io/project/sip-link/</guid>
       <description>&lt;p&gt;Designed 20 Gbps SiP data transmission link in Cadence Virtuoso (65 nm). The link consists of CW laser, CMOS driver, MRM, PD, and TIA. SiP devices are modelled in Verilog-A. The driver has cascode common-source topology whereas the TIA is based on 3-stage inverters. Energy efficiency of 1.98 pJ/bit was achieved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SiEPICfab Shuksan PDK</title>
+      <link>https://dazhigulov.github.io/project/shuksanpdk/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/shuksanpdk/</guid>
+      <description>&lt;p&gt;Developed a new PDK for the “SiEPICfab Shuksan” laser integration workshop using in-house developed layermap and technology files. The PDK features schematic-driven layout design for Silicon Photonics devices, runs natively in Cadence Virtuoso, and supports electro-optic co-simulation (Cadence-Lumerical). Also wrote SKILL scripts to create CDF mappings and to generate PCells for layout. The PDK&amp;rsquo;s GitHub repository can be found in the link provided at the top.&lt;/p&gt;
 </description>
     </item>
     
