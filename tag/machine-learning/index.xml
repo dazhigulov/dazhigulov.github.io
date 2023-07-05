@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Dias Azhigulov</title>
+    <link>https://dazhigulov.github.io/tag/machine-learning/</link>
+      <atom:link href="https://dazhigulov.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dazhigulov.github.io/media/icon_huacf09b5d8ecef021b61db96768cbd5c1_6432_512x512_fill_lanczos_center_3.png</url>
+      <title>Machine Learning</title>
+      <link>https://dazhigulov.github.io/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Single image super-resolution</title>
+      <link>https://dazhigulov.github.io/project/gan/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/gan/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-discriminator-architecture&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/gan/discriminator_hu4f52a2e1c2356be103a43e34e644a806_71956_d706e5e735a2e82e7b62ded8cec39eae.webp 400w,
+               /project/gan/discriminator_hu4f52a2e1c2356be103a43e34e644a806_71956_caade982ec052d87d362a11aedbcbc1d.webp 760w,
+               /project/gan/discriminator_hu4f52a2e1c2356be103a43e34e644a806_71956_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/gan/discriminator_hu4f52a2e1c2356be103a43e34e644a806_71956_d706e5e735a2e82e7b62ded8cec39eae.webp&#34;
+               width=&#34;534&#34;
+               height=&#34;238&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Discriminator architecture.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-general-framework-of-a-gan-generator-and-discriminator-compete-and-make-each-other-more-accurate&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/gan/overall_hu605ee7ba5a7d8845190c4e0a596e5df3_532024_3f40d9e4eea81661be47af3d1436cc27.webp 400w,
+               /project/gan/overall_hu605ee7ba5a7d8845190c4e0a596e5df3_532024_909e603dc654dd4ced34ed9aaeab1a76.webp 760w,
+               /project/gan/overall_hu605ee7ba5a7d8845190c4e0a596e5df3_532024_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/gan/overall_hu605ee7ba5a7d8845190c4e0a596e5df3_532024_3f40d9e4eea81661be47af3d1436cc27.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;229&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      General framework of a GAN. Generator and Discriminator compete and make each other more accurate.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This work demonstrated the viability of ESRGAN (&lt;a href=&#34;https://arxiv.org/abs/1809.00219&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;) in SD to 8K HDR image upscaling task. Taking into account that 8K images have sizes of around 100 MB, we devise a new data preprocessing scheme to create pairs of LR and HR images. Our first results demonstrated that while the generated images are better than the classically interpolated versions, it still lacks a lot of features such as colors and facial features. Therefore, we began training another model which includes simple data augmentation techniques and longer warm up phase. After merely 20 epochs, one can already see the major benefits of these changes. Thus, our latest model achieved over 35 dB average PSNR on the test set and we visually demonstrated that it indeed produces better images. As a future direction, one can consider adding another data augmentation method called CutBlur and perhaps even train 3 different GANs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Histopathological classification of cancer via Deep Learning</title>
+      <link>https://dazhigulov.github.io/project/capstone/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/capstone/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-model-architecture-used-for-cancer-classification&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/capstone/model_hu83769013a6680baffce2ec834b1c1609_389578_6aa52a2c5bd51468399516400432b12c.webp 400w,
+               /project/capstone/model_hu83769013a6680baffce2ec834b1c1609_389578_cef460b958a8cffb9d1af5336f8f86c3.webp 760w,
+               /project/capstone/model_hu83769013a6680baffce2ec834b1c1609_389578_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/capstone/model_hu83769013a6680baffce2ec834b1c1609_389578_6aa52a2c5bd51468399516400432b12c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;201&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Model architecture used for cancer classification.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Developed a web application which can in live mode detect various cancers and determine the type of cancers with an accuracy of over 99% based on the images uploaded by a user (Frontend is implemented in Python Flask, Backend is built via Keras and consists of 9 CNNs trained on clinical data). Such concepts as Ensemble Learning and Transfer Learning were applied to improve accuracy. For mobile application purposes the models were also compressed up to 2 times without loss in accuracy through channel pruning technique.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apparent Age, Gender and Ethnicity Prediction</title>
+      <link>https://dazhigulov.github.io/project/utkface/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/utkface/</guid>
+      <description>&lt;p&gt;This work demonstrated ResNet-50 based Deep Learning model that can accurately classify between people of
+different age, gender, and racial origins. We employed Transfer Learning concept to account for relatively small dataset of over 23000 images. To be precise, the ResNet model pre-trained on the ImageNet dataset was applied to our classification task on the UTKFace dataset. Referring to Section IV, we achieve MAE of 7.7 years, 95%, and 80.4% for the first, second, and third classification problems, respectively. Further works can be done to improve all three numbers by training on a larger dataset as well as by transferring weights from a model specifically pre-trained to recognize human faces.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facetendance</title>
+      <link>https://dazhigulov.github.io/project/raspberry/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/raspberry/</guid>
+      <description>&lt;p&gt;Deployed a real-time face recognition system on Raspberry Pi 3 for automated attendance monitoring. Face detection and tracking was implemented through OpenCV (using Haar cascades), and the classification results are uploaded to the AWS IoT server via the MQTT protocol.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Dias Azhigulov</title>
+    <link>https://dazhigulov.github.io/publication/</link>
+      <atom:link href="https://dazhigulov.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dazhigulov.github.io/media/icon_huacf09b5d8ecef021b61db96768cbd5c1_6432_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://dazhigulov.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Deep Transfer Learning for Subject-Independent ERP-based BCIs</title>
+      <link>https://dazhigulov.github.io/publication/bci2020/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/publication/bci2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High‐speed thermally tuned electro‐optical logic gates based on micro‐ring resonators</title>
+      <link>https://dazhigulov.github.io/publication/sip/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/publication/sip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BEOL NEM Relay-Based Inductorless DC-DC Converters</title>
+      <link>https://dazhigulov.github.io/publication/example/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/publication/example/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

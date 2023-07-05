@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dias Azhigulov</title>
+    <link>https://dazhigulov.github.io/</link>
+      <atom:link href="https://dazhigulov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dias Azhigulov</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dazhigulov.github.io/media/icon_huacf09b5d8ecef021b61db96768cbd5c1_6432_512x512_fill_lanczos_center_3.png</url>
+      <title>Dias Azhigulov</title>
+      <link>https://dazhigulov.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://dazhigulov.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>16 Gbps high-speed I/O link</title>
+      <link>https://dazhigulov.github.io/project/io-link/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/io-link/</guid>
+      <description>&lt;p&gt;Designed 16 Gbps I/O link with mesochronous clocking over a lossy 12&amp;quot; backplane channel in Cadence Virtuoso (65 nm CMOS). TX consists of 4:1 serializer, multi-phase clock generator, predrivers, segmented VM driver with SST and 3-tap FFE. RX is composed of active CTLE, quarter rate slicers (Strong-Arm Latch topology), 4:1 synchronizer. Energy efficiency of 0.766 pJ/bit was achieved.&lt;/p&gt;
+&lt;p&gt;You can check out the full report&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dazhigulov.github.io/uploads/IO-link.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>30 Gbps Silicon Photonics link</title>
+      <link>https://dazhigulov.github.io/project/sip-link/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/sip-link/</guid>
+      <description>&lt;p&gt;Designed 30 Gbps SiP data transmission link in Cadence Virtuoso (65 nm CMOS). The link consists of CW laser, CMOS driver, MRM, PD, and TIA. SiP devices are modelled in Verilog-A. The driver has cascode common-source topology whereas the TIA is based on 3-stage inverters. Energy efficiency of 1.98 pJ/bit was achieved.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-microring-modulator-driver-circuit&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Microring Modulator driver circuit.&#34; srcset=&#34;
+               /project/sip-link/MRM_driver_hu7e803ed90abf4c0beda68acea082c2da_15604_5e900a1762dc240f2ea0f939535a7693.webp 400w,
+               /project/sip-link/MRM_driver_hu7e803ed90abf4c0beda68acea082c2da_15604_8630068840da8fcb5f2e975685c50e1a.webp 760w,
+               /project/sip-link/MRM_driver_hu7e803ed90abf4c0beda68acea082c2da_15604_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/sip-link/MRM_driver_hu7e803ed90abf4c0beda68acea082c2da_15604_5e900a1762dc240f2ea0f939535a7693.webp&#34;
+               width=&#34;690&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Microring Modulator driver circuit.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-tia-schematics&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TIA schematics.&#34; srcset=&#34;
+               /project/sip-link/TIA_hudb0af66fe22e4b17e878d67285689204_21339_9768e6f73406918449c80eafd10e0b77.webp 400w,
+               /project/sip-link/TIA_hudb0af66fe22e4b17e878d67285689204_21339_209312e37404193da097e08fc8a9fcd4.webp 760w,
+               /project/sip-link/TIA_hudb0af66fe22e4b17e878d67285689204_21339_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/sip-link/TIA_hudb0af66fe22e4b17e878d67285689204_21339_9768e6f73406918449c80eafd10e0b77.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;402&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      TIA schematics.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-microring-modulator-driver-output-eye-diagram-electrical&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Microring Modulator driver output eye diagram (electrical).&#34; srcset=&#34;
+               /project/sip-link/30G_MRMdriver_eyeDiagram_huc6adb2a1b33c2e5a9f0e204b324d5358_143513_ebca283c176b1105eeed9d81579ac6a0.webp 400w,
+               /project/sip-link/30G_MRMdriver_eyeDiagram_huc6adb2a1b33c2e5a9f0e204b324d5358_143513_b7096e343c1d26caf93995d34cdfda3e.webp 760w,
+               /project/sip-link/30G_MRMdriver_eyeDiagram_huc6adb2a1b33c2e5a9f0e204b324d5358_143513_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/sip-link/30G_MRMdriver_eyeDiagram_huc6adb2a1b33c2e5a9f0e204b324d5358_143513_ebca283c176b1105eeed9d81579ac6a0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Microring Modulator driver output eye diagram (electrical).
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-photodetector-input-signals-eye-diagram-optical&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Photodetector input signal&amp;#39;s eye diagram (optical).&#34; srcset=&#34;
+               /project/sip-link/30G_optical_eyeDiagram_hub95cbcdcee62ca6ef741689a21cb63c6_156840_f0bfa75ac8f387667c278569c30fde06.webp 400w,
+               /project/sip-link/30G_optical_eyeDiagram_hub95cbcdcee62ca6ef741689a21cb63c6_156840_791946c17e5cdca7861a951998853133.webp 760w,
+               /project/sip-link/30G_optical_eyeDiagram_hub95cbcdcee62ca6ef741689a21cb63c6_156840_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/sip-link/30G_optical_eyeDiagram_hub95cbcdcee62ca6ef741689a21cb63c6_156840_f0bfa75ac8f387667c278569c30fde06.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Photodetector input signal&amp;rsquo;s eye diagram (optical).
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-tia-output-eye-diagram-electrical&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;TIA output eye diagram (electrical).&#34; srcset=&#34;
+               /project/sip-link/30G_TIA_eyeDiagram_hu69f9e61ee647df0bd9764f14260d5993_250248_c2ef0767db88c15c520edafceaca98fb.webp 400w,
+               /project/sip-link/30G_TIA_eyeDiagram_hu69f9e61ee647df0bd9764f14260d5993_250248_fad2b05e0023d7198a289ca17d946dbe.webp 760w,
+               /project/sip-link/30G_TIA_eyeDiagram_hu69f9e61ee647df0bd9764f14260d5993_250248_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/sip-link/30G_TIA_eyeDiagram_hu69f9e61ee647df0bd9764f14260d5993_250248_c2ef0767db88c15c520edafceaca98fb.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      TIA output eye diagram (electrical).
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Sub-Sampling LC-PLL design</title>
+      <link>https://dazhigulov.github.io/project/ss-pll/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/ss-pll/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Sub-Sampling Phase-Locked Loops (SS PLLs) offer several advantages over classical Phase-Frequency Detector Charge Pump (PFD-CP) based PLLs such as lower phase noise (PN), higher loop bandwidth (BW), and reduced power consumption due to its simplicity. Inspired by the findings reported in &lt;a href=&#34;https://ieeexplore.ieee.org/document/8519794&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the original paper&lt;/a&gt;, we attempt to recreate the results by building the same circuit. All the devices are implemented using TSMC 65 nm PDK components.&lt;/p&gt;
+&lt;p&gt;Before diving into circuit details, it should be emphasized that we use Verilog-A VCO model and tune its parameters to suit our needs:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Parameter&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Value&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VCO gain&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;90 MHz/V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VCO bank gap&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20 MHz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VCO frequency&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.6 GHz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;FLL division&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;sub-sampling-phase-detector-and-loop-filter&#34;&gt;&lt;strong&gt;Sub-sampling Phase Detector and Loop Filter&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Fig. 1 depicts our SS PD circuit diagram. Note that this circuits acts both as SS PD and Loop Filter (LF) because two transistors and a capacitor can effectively be seen as a series resistance R1, which is defined by:
+
+
+$$
+R_1 = \frac{1}{f_{ref}*C_1}
+$$
+
+Another important observation is that contrary to what is proposed in the reference paper, we omitted the
+stabilizing zero path since phase margin is not of concern due to the presence of Verilog-A Voltage-
+Controlled Oscillator (VCO). We also do not place any dummy transistors as charge sharing effect is
+not captured in the simulation. Thus, we have two transistor whose $\frac{W}{L} = \frac{2000}{60}$. We keep the resistor R2 value to be the same as in the original paper (20kΩ), however, C1 and C2 should be carefully selected. The reason has to do with the fact that this SS PD can be viewed as an RC circuit with BW of:
+
+
+
+$$
+BW_{PD+LF} = \frac{1}{2\pi(R_1+R_2)C_2}=\frac{1}{2\pi(\frac{C_2}{f_{ref}C_1}+R_2C_2)}
+$$ 
+
+which attenuates the incoming signal proportional to $\frac{C_2}{C_1}$. Therefore, one has to increase $C_1$ while keeping $C_2$ at minimum. However, this comes at a cost of the area and clock feedthrough, which could be filtered out by using larger $C_2$. Having this intuition, we decided to set $C_2 = 20 fF$ and $C_1 = 200 fF$, which adequately suppresses clock feedthrough while keeping the control voltage between  $\sim\pm200 mV$.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-ss-pd-and-lf-schematics&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;SS PD and LF schematics.&#34; srcset=&#34;
+               /project/ss-pll/SS_PD_hu28c4c0c0bd964e7da0e039917d417725_44074_97605506aad40a3840d849477740eef8.webp 400w,
+               /project/ss-pll/SS_PD_hu28c4c0c0bd964e7da0e039917d417725_44074_181c5fafe2cddf663f5bd6b905137ab9.webp 760w,
+               /project/ss-pll/SS_PD_hu28c4c0c0bd964e7da0e039917d417725_44074_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/ss-pll/SS_PD_hu28c4c0c0bd964e7da0e039917d417725_44074_97605506aad40a3840d849477740eef8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;404&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      SS PD and LF schematics.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-pll-schematic-with-transistor-level-ss-pd--lf-and-verilog-a-muxes-fll-and-vco&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;PLL schematic with transistor-level SS-PD &amp;#43; LF and Verilog-A MUXes, FLL, and VCO.&#34; srcset=&#34;
+               /project/ss-pll/SS_PLL_hudc9ede006db72cc4fbd5930400321e18_59382_cd6b34a4abcb6ebc8a30f5f4ec860009.webp 400w,
+               /project/ss-pll/SS_PLL_hudc9ede006db72cc4fbd5930400321e18_59382_7bb14c6c4feff06bd7c7b44ca70a31e5.webp 760w,
+               /project/ss-pll/SS_PLL_hudc9ede006db72cc4fbd5930400321e18_59382_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/ss-pll/SS_PLL_hudc9ede006db72cc4fbd5930400321e18_59382_cd6b34a4abcb6ebc8a30f5f4ec860009.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;501&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      PLL schematic with transistor-level SS-PD + LF and Verilog-A MUXes, FLL, and VCO.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;synthesized-frequency-locked-loop&#34;&gt;&lt;strong&gt;Synthesized Frequency-Locked Loop&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Another important block in the proposed SS PLL is FLL. Our FLL is implemented digitally using Verilog. The code is provided in the Appendix section. To develop the code we started with the FSM diagram demonstrated in Fig. 3, which is a simplified version of the original FSM, where the authors have an extra state for power savings. In contrast, our code, regardless of the outcome of State 3 (i.e. PLL_EN = 1/0), returns to State 2 and starts counting again. When the reset is enabled, the capacitor bank is initialized to a 32-bit word that sets VCO to 2.4 GHz. There are two always blocks in the Verilog code, one for counting the VCO cycles and another for state transition and output logic. The latter is synchronized to the reference clock to minimize random jitter effects on the FLL output. Afterwards, the code is sourced into Cadence Genus for Register Transfer Level (RTL) synthesis. The result is shown in Fig. 4.&lt;/p&gt;
+&lt;p&gt;The division ratio is supplied as an 8-bit input to FLL, which then outputs 32-bit capacitor bank code word and sets CAL_READY (PLL_EN in the Verilog code) node to 1 or 0 in Fig. 2. This signal, in its turn, connects Vcontrol to SS PD and if disconnected, sets it to 0V differential using an inverter and a pair of NMOS transistors (all min. width). It should be mentioned that the ADC and DAC in Fig. 2 are behavioural models that are used to facilitate visualization of digital bus signals.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fsm-for-fll&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;FSM for FLL.&#34; srcset=&#34;
+               /project/ss-pll/FSM_hu938fb08d9b0590917f0177d78da171b3_175923_3055bdab351c93760844b716c2eb6137.webp 400w,
+               /project/ss-pll/FSM_hu938fb08d9b0590917f0177d78da171b3_175923_f305164ef9062c2656e52496852cb2ae.webp 760w,
+               /project/ss-pll/FSM_hu938fb08d9b0590917f0177d78da171b3_175923_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/ss-pll/FSM_hu938fb08d9b0590917f0177d78da171b3_175923_3055bdab351c93760844b716c2eb6137.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      FSM for FLL.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fll-schematic&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;FLL schematic.&#34; srcset=&#34;
+               /project/ss-pll/FLL_hu2fca941c3c9b980df901e5b093d6262e_48943_4cdaa3b8cda5108e279086383f0e2078.webp 400w,
+               /project/ss-pll/FLL_hu2fca941c3c9b980df901e5b093d6262e_48943_d9e9e736a6e7e143dc8af1ae8bd25d3f.webp 760w,
+               /project/ss-pll/FLL_hu2fca941c3c9b980df901e5b093d6262e_48943_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/ss-pll/FLL_hu2fca941c3c9b980df901e5b093d6262e_48943_4cdaa3b8cda5108e279086383f0e2078.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;429&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      FLL schematic.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;system-level-simulations&#34;&gt;&lt;strong&gt;System-level Simulations&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Once all the blocks are designed and tuned for target specifications, the PLL is simulated for various scenarios including target frequency change, phase step in reference clock, and noise analysis. Fig. 5 illustrates the behaviour of the PLL for various target frequencies. It can be deduced that the proposed PLL successfully locks for all conditions with a good settling time. Although we designed our FLL and configured VCO in such a way as to have 2.3, 2.4, and 2.5 GHz frequencies at the middle of the tuning curves, which ideally correspond to $V_{control}$ = 0V , there are cases when FLL lets PLL to takeover the control one frequency step before its expected value. Consequently, in order to lock PLL increases $V_{control}$ up to 200 mV to compensate for this small error in FLL. This is only observed when moving down the tuning curves, regardless of the target frequency. When moving up the curves, the FLL behaves as expected, therefore PLL keeps $V_{control}$ at around 0V. This problem was further investigated by visualizing the nodes inside FLL and it seems that the issue originates from the irregularities in the phase of VCO. As a consequence, the FLL counts 1 less VCO cycle and thinks that it is at the correct frequency. It is for this reason that when target frequency is increased, the first step is twice as big as any other subsequent frequency step (40 MHz jump instead of 20 MHz).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-24---23---25-ghz-frequency-step-pll-simulation-results&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.4 -&amp;gt; 2.3 -&amp;gt; 2.5 GHz frequency step PLL simulation results.&#34; srcset=&#34;
+               /project/ss-pll/2400to2300to2500MHz_locked_hu7d3110c745644dfe4a24b8fd4f9f470d_106991_b898af3a0e262fb3cbdeb89abd1042cb.webp 400w,
+               /project/ss-pll/2400to2300to2500MHz_locked_hu7d3110c745644dfe4a24b8fd4f9f470d_106991_3d5c4eb739161d0286933a034d8b09dd.webp 760w,
+               /project/ss-pll/2400to2300to2500MHz_locked_hu7d3110c745644dfe4a24b8fd4f9f470d_106991_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/ss-pll/2400to2300to2500MHz_locked_hu7d3110c745644dfe4a24b8fd4f9f470d_106991_b898af3a0e262fb3cbdeb89abd1042cb.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      2.4 -&amp;gt; 2.3 -&amp;gt; 2.5 GHz frequency step PLL simulation results.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Settling time is estimated to be 670 ns for 100 MHz frequency steps and it take 1.1 $\mu s$ to move 200 MHz.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-phase-noise-of-the-pll-reconstructed-in-matlab&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Phase noise of the PLL reconstructed in MATLAB.&#34; srcset=&#34;
+               /project/ss-pll/PLL_noise_hu2eb99ad5a729e340b7d06d2d3186c09c_58485_9b1e3376c52eba09c239fff3709cdea1.webp 400w,
+               /project/ss-pll/PLL_noise_hu2eb99ad5a729e340b7d06d2d3186c09c_58485_def2a938e0f297f7fbe5bdd8a75081ac.webp 760w,
+               /project/ss-pll/PLL_noise_hu2eb99ad5a729e340b7d06d2d3186c09c_58485_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/ss-pll/PLL_noise_hu2eb99ad5a729e340b7d06d2d3186c09c_58485_9b1e3376c52eba09c239fff3709cdea1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Phase noise of the PLL reconstructed in MATLAB.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The above figure illustrate the phase noise performance of our SS PD and the entire PLL. We simulate the phase noise of SS PD in Cadence and import the result into MATLAB code where the system level phase noise analysis is conducted based on available VCO and reference clock data. Additionally, we provide in-band and out-of-band phase noise values in the figure above.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-top-3-spurs-for-the-pll-running-at-24-ghz&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Top 3 spurs for the PLL running at 2.4 GHz.&#34; srcset=&#34;
+               /project/ss-pll/top3spurs_2400MHz_hu714190c54b97ef80f75bf5f37ad18ac7_74195_b01aeac00a81307a5552300cf712ce30.webp 400w,
+               /project/ss-pll/top3spurs_2400MHz_hu714190c54b97ef80f75bf5f37ad18ac7_74195_da2053b017d3ec892d4b1606b5eada8a.webp 760w,
+               /project/ss-pll/top3spurs_2400MHz_hu714190c54b97ef80f75bf5f37ad18ac7_74195_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/ss-pll/top3spurs_2400MHz_hu714190c54b97ef80f75bf5f37ad18ac7_74195_b01aeac00a81307a5552300cf712ce30.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Top 3 spurs for the PLL running at 2.4 GHz.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;According to the plot above, it can be seen that the largest spur is around -70.3 dB.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-effect-of-clock-feedthrough&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Effect of clock feedthrough.&#34; srcset=&#34;
+               /project/ss-pll/2400MHz_dxdy_hub4e69e0feca01e57435ad9b6a5a4f971_168424_21510db0f3474008cf9778e77647da8d.webp 400w,
+               /project/ss-pll/2400MHz_dxdy_hub4e69e0feca01e57435ad9b6a5a4f971_168424_56fd176a51ce7c2c5737ba903009a5e7.webp 760w,
+               /project/ss-pll/2400MHz_dxdy_hub4e69e0feca01e57435ad9b6a5a4f971_168424_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/ss-pll/2400MHz_dxdy_hub4e69e0feca01e57435ad9b6a5a4f971_168424_21510db0f3474008cf9778e77647da8d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Effect of clock feedthrough.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Furthermore, we visualize the impact of clock feedthrough on VCO output frequency and control line. The oscillation magnitude was calculated to be less than 1000 ppm (approx. 40 kHz), thereby satisfying the specification.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To sum up, in this report we demonstrated the block and transistor level diagram of the proposed SS PLL. We provided reasoning behind some design choices for SS PD and explained the Verilog code used to synthesize the FLL. In the results section we discussed the system level simulation results and provided explanation to some of the phenomena observed in figures. While these figures are not be the best, they still meet all the specifications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two-Stage OTA design using gm/Id methodology</title>
+      <link>https://dazhigulov.github.io/project/ota/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/ota/</guid>
+      <description>&lt;p&gt;Designed two-stage OTA in 45 nm CMOS using gm/Id sizing for target specs. Achieved 52 dB gain, 187 MHz UGBW, 7 ns settling time, 800 mV output swing while consuming 99 μW power.&lt;/p&gt;
+&lt;p&gt;You can check out the full report&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dazhigulov.github.io/uploads/Assignment1_DiasAzhigulov.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SiEPICfab Shuksan PDK</title>
+      <link>https://dazhigulov.github.io/project/shuksanpdk/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/shuksanpdk/</guid>
+      <description>&lt;p&gt;Developed a new PDK for the “SiEPICfab Shuksan” laser integration workshop using in-house developed layermap and technology files. The PDK features schematic-driven layout design for Silicon Photonics devices, runs natively in Cadence Virtuoso, and supports electro-optic co-simulation (Cadence-Lumerical). Also wrote SKILL scripts to create CDF mappings and to generate PCells for layout. The PDK&amp;rsquo;s GitHub repository can be found in the link provided at the top.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Transfer Learning for Subject-Independent ERP-based BCIs</title>
+      <link>https://dazhigulov.github.io/publication/bci2020/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/publication/bci2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single image super-resolution</title>
+      <link>https://dazhigulov.github.io/project/gan/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/gan/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-discriminator-architecture&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/gan/discriminator_hu4f52a2e1c2356be103a43e34e644a806_71956_d706e5e735a2e82e7b62ded8cec39eae.webp 400w,
+               /project/gan/discriminator_hu4f52a2e1c2356be103a43e34e644a806_71956_caade982ec052d87d362a11aedbcbc1d.webp 760w,
+               /project/gan/discriminator_hu4f52a2e1c2356be103a43e34e644a806_71956_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/gan/discriminator_hu4f52a2e1c2356be103a43e34e644a806_71956_d706e5e735a2e82e7b62ded8cec39eae.webp&#34;
+               width=&#34;534&#34;
+               height=&#34;238&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Discriminator architecture.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-general-framework-of-a-gan-generator-and-discriminator-compete-and-make-each-other-more-accurate&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/gan/overall_hu605ee7ba5a7d8845190c4e0a596e5df3_532024_3f40d9e4eea81661be47af3d1436cc27.webp 400w,
+               /project/gan/overall_hu605ee7ba5a7d8845190c4e0a596e5df3_532024_909e603dc654dd4ced34ed9aaeab1a76.webp 760w,
+               /project/gan/overall_hu605ee7ba5a7d8845190c4e0a596e5df3_532024_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/gan/overall_hu605ee7ba5a7d8845190c4e0a596e5df3_532024_3f40d9e4eea81661be47af3d1436cc27.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;229&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      General framework of a GAN. Generator and Discriminator compete and make each other more accurate.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This work demonstrated the viability of ESRGAN (&lt;a href=&#34;https://arxiv.org/abs/1809.00219&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;) in SD to 8K HDR image upscaling task. Taking into account that 8K images have sizes of around 100 MB, we devise a new data preprocessing scheme to create pairs of LR and HR images. Our first results demonstrated that while the generated images are better than the classically interpolated versions, it still lacks a lot of features such as colors and facial features. Therefore, we began training another model which includes simple data augmentation techniques and longer warm up phase. After merely 20 epochs, one can already see the major benefits of these changes. Thus, our latest model achieved over 35 dB average PSNR on the test set and we visually demonstrated that it indeed produces better images. As a future direction, one can consider adding another data augmentation method called CutBlur and perhaps even train 3 different GANs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Voltage Controlled Oscillator (VCO)</title>
+      <link>https://dazhigulov.github.io/project/vlsi-vco/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/vlsi-vco/</guid>
+      <description>&lt;p&gt;This work compares the performance of three different VCO circuits, namely: variable resistor and varactor based. Below are the results of Cadence simulations done at different corners.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-variable-resistor-based-vco-schematic-in-cadence-virtuoso&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/vlsi-vco/varres_hu24b4f6e4fd513a902ef66a3d43f6071d_557441_ad748023b68d992d7c870f9495f2f7ee.webp 400w,
+               /project/vlsi-vco/varres_hu24b4f6e4fd513a902ef66a3d43f6071d_557441_717693130111b6e0aa68d719f6891acd.webp 760w,
+               /project/vlsi-vco/varres_hu24b4f6e4fd513a902ef66a3d43f6071d_557441_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/vlsi-vco/varres_hu24b4f6e4fd513a902ef66a3d43f6071d_557441_ad748023b68d992d7c870f9495f2f7ee.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;450&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Variable resistor based VCO schematic in Cadence Virtuoso.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Variable resistor based circuit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SS corner:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$f_{min}$ = 4.18 MHz, $f_{max}$ = 1.25 GHz, $P$ = 2.33 mW, $K_{VCO}$ = 23.56 GHz/V&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FF corner:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$f_{min}$ = 32.67 MHz, $f_{max}$ = 1.95 GHz, $P$ = 2.29 mW, $K_{VCO}$ = 28.73 GHz/V&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-varactor-based-vco-schematic-in-cadence-virtuoso&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/vlsi-vco/varactor_hu142d32f41bacdf8502459588af9eed02_639577_a9aaabcc0f61a0244ccb8113bf35642c.webp 400w,
+               /project/vlsi-vco/varactor_hu142d32f41bacdf8502459588af9eed02_639577_af19265d0e548624e302a4eaf436b362.webp 760w,
+               /project/vlsi-vco/varactor_hu142d32f41bacdf8502459588af9eed02_639577_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/vlsi-vco/varactor_hu142d32f41bacdf8502459588af9eed02_639577_a9aaabcc0f61a0244ccb8113bf35642c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;255&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Varactor based VCO schematic in Cadence Virtuoso.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+Varactor based circuit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SS corner:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$f_{min}$ = 1.41 GHz, $f_{max}$ = 2.60 GHz, $P$ = 1.86 mW, $K_{VCO}$ = 15.67 GHz/V&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FF corner:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$f_{min}$ = 1.92 GHz, $f_{max}$ = 3.79 GHz, $P$ = 2.66 mW, $K_{VCO}$ = 22.60 GHz/V&lt;/p&gt;
+&lt;p&gt;Overall, it can be seen that they both have their own advantages and disadvantages and the choice of which device to use depends on the application (e.g. for low power devices varactors are preferred).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6T SRAM memory cell design and layout</title>
+      <link>https://dazhigulov.github.io/project/vlsi-sram/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/vlsi-sram/</guid>
+      <description>&lt;p&gt;Implementation of SRAM circuit with write drivers. The circuit can discharge the bit line at 100 mV per 297 ps. This circuit also meets write operations requirements as the pass gate is able to pull the internal node (q_bar) well below $\frac{V_s}{2}$, which was found to be 0.278V. Q_bar is completely pulled down to 0 and q is pulled up to the maximum value of 1.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-sram-schematic-in-cadence-virtuoso&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/vlsi-sram/sram_sch_hueae2d33f470fdd5a6b18c848f738b086_634803_6923aad08ff315f39199681fa1c454f8.webp 400w,
+               /project/vlsi-sram/sram_sch_hueae2d33f470fdd5a6b18c848f738b086_634803_98d5de9f5bf8dc9254eec8ccab416e3f.webp 760w,
+               /project/vlsi-sram/sram_sch_hueae2d33f470fdd5a6b18c848f738b086_634803_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/vlsi-sram/sram_sch_hueae2d33f470fdd5a6b18c848f738b086_634803_6923aad08ff315f39199681fa1c454f8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;363&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      SRAM schematic in Cadence Virtuoso.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variable frequency divider</title>
+      <link>https://dazhigulov.github.io/project/vlsi-divider/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/vlsi-divider/</guid>
+      <description>&lt;p&gt;Implementation of the frequency divider involves multi-modulus prescaler and control qualifier. The device support division in the range from 8 to 23 and also includes custom logic circuit designed through FSM to switch between different divisions, leading to different signal frequency at the output.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clock distribution network</title>
+      <link>https://dazhigulov.github.io/project/vlsi-clocking/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/vlsi-clocking/</guid>
+      <description>&lt;p&gt;The objective of this work is to minimize the delay, rise and fall times, skew, and power consumption of the clock signal distribution system. In the process, we also provide analytical models for the system behavior and optimize it to achieve the design constraints. We perform logical effort analysis to find the optimal number of stages between input clock and loads. Afterwards, each buffer stage can be properly sized to reduce the clock skew across different loads.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://dazhigulov.github.io/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High‐speed thermally tuned electro‐optical logic gates based on micro‐ring resonators</title>
+      <link>https://dazhigulov.github.io/publication/sip/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/publication/sip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BEOL NEM Relay-Based Inductorless DC-DC Converters</title>
+      <link>https://dazhigulov.github.io/publication/example/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/publication/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wireless Sensor Network optimization</title>
+      <link>https://dazhigulov.github.io/project/wsn/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/wsn/</guid>
+      <description>&lt;p&gt;In this work, we formulated and solved the energy optimization problem of optimal sensor-to-sink binding in WSNs. The optimization problem was modeled with quadratic objective function and four constraints, and was solved using Gurobi Python interface. We then compared the obtained results with the results reported in the reference work (&lt;a href=&#34;https://ieeexplore.ieee.org/document/7901590&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;) that solves the same optimization problem. Although the results contrast in terms of objective values of binary variables, the overall trend of change of objective values of continuous variables and runtime estimates are similar. We also demonstrated that the results obtained from our experiment are better in terms of objective value and runtime estimates. In the end, we expanded our problem formulation to the multi-hop case where unreach- able sensors reach the sinks through intermediate connections. The proposed design of this problem has proven its efficacy as a result of several test experiments conducted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Histopathological classification of cancer via Deep Learning</title>
+      <link>https://dazhigulov.github.io/project/capstone/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/capstone/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-model-architecture-used-for-cancer-classification&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /project/capstone/model_hu83769013a6680baffce2ec834b1c1609_389578_6aa52a2c5bd51468399516400432b12c.webp 400w,
+               /project/capstone/model_hu83769013a6680baffce2ec834b1c1609_389578_cef460b958a8cffb9d1af5336f8f86c3.webp 760w,
+               /project/capstone/model_hu83769013a6680baffce2ec834b1c1609_389578_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dazhigulov.github.io/project/capstone/model_hu83769013a6680baffce2ec834b1c1609_389578_6aa52a2c5bd51468399516400432b12c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;201&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Model architecture used for cancer classification.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Developed a web application which can in live mode detect various cancers and determine the type of cancers with an accuracy of over 99% based on the images uploaded by a user (Frontend is implemented in Python Flask, Backend is built via Keras and consists of 9 CNNs trained on clinical data). Such concepts as Ensemble Learning and Transfer Learning were applied to improve accuracy. For mobile application purposes the models were also compressed up to 2 times without loss in accuracy through channel pruning technique.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apparent Age, Gender and Ethnicity Prediction</title>
+      <link>https://dazhigulov.github.io/project/utkface/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/utkface/</guid>
+      <description>&lt;p&gt;This work demonstrated ResNet-50 based Deep Learning model that can accurately classify between people of
+different age, gender, and racial origins. We employed Transfer Learning concept to account for relatively small dataset of over 23000 images. To be precise, the ResNet model pre-trained on the ImageNet dataset was applied to our classification task on the UTKFace dataset. Referring to Section IV, we achieve MAE of 7.7 years, 95%, and 80.4% for the first, second, and third classification problems, respectively. Further works can be done to improve all three numbers by training on a larger dataset as well as by transferring weights from a model specifically pre-trained to recognize human faces.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facetendance</title>
+      <link>https://dazhigulov.github.io/project/raspberry/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/raspberry/</guid>
+      <description>&lt;p&gt;Deployed a real-time face recognition system on Raspberry Pi 3 for automated attendance monitoring. Face detection and tracking was implemented through OpenCV (using Haar cascades), and the classification results are uploaded to the AWS IoT server via the MQTT protocol.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Error Amplifier in LDO</title>
+      <link>https://dazhigulov.github.io/project/ldo/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/project/ldo/</guid>
+      <description>&lt;p&gt;This project considers two distinct error amplifier configurations (simple differential pair and cascode configuration) in the context of LDOs. Both of them were theoretically analyzed with proper explanations and the expectations were stated as well. In order to verify the theory, the circuits were simulated to obtain their frequency response, transfer function, and to study the effect of common mode bias on the output voltage. Thus, by contrasting between simple differential amplifier and its cascoded version, one can deduce that there are clear tradeoffs when choosing among them. While the former has greater 3-dB frequency and more voltage legroom, it is inferior to the cascoded version of differential amplifer in terms of other parameters. The latter as seen from the simulations provided superior DM gain while lowering the CM-DM gain. Hence it is reasonable to suggest that the choice should be given to the one which best fits the application.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://dazhigulov.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dazhigulov.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
