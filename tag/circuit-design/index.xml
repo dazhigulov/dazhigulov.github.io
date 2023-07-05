@@ -18,8 +18,7 @@
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://dazhigulov.github.io/project/io-link/</guid>
       <description>&lt;p&gt;Designed 16 Gbps I/O link with mesochronous clocking over a lossy 12&amp;quot; backplane channel in Cadence Virtuoso (65 nm CMOS). TX consists of 4:1 serializer, multi-phase clock generator, predrivers, segmented VM driver with SST and 3-tap FFE. RX is composed of active CTLE, quarter rate slicers (Strong-Arm Latch topology), 4:1 synchronizer. Energy efficiency of 0.766 pJ/bit was achieved.&lt;/p&gt;
-&lt;p&gt;You can check out the full report&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://dazhigulov.github.io/uploads/IO-link.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://dazhigulov.github.io/uploads/IO-link.pdf&#34; target=&#34;_blank&#34;&gt;You can check out the full report here&lt;/a&gt;
 .&lt;/p&gt;
 </description>
     </item>
@@ -523,8 +522,7 @@ which attenuates the incoming signal proportional to $\frac{C_2}{C_1}$. Therefor
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://dazhigulov.github.io/project/ota/</guid>
       <description>&lt;p&gt;Designed two-stage OTA in 45 nm CMOS using gm/Id sizing for target specs. Achieved 52 dB gain, 187 MHz UGBW, 7 ns settling time, 800 mV output swing while consuming 99 μW power.&lt;/p&gt;
-&lt;p&gt;You can check out the full report&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://dazhigulov.github.io/uploads/Assignment1_DiasAzhigulov.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://dazhigulov.github.io/uploads/Assignment1_DiasAzhigulov.pdf&#34; target=&#34;_blank&#34;&gt;You can check out the full report here&lt;/a&gt;
 .&lt;/p&gt;
 </description>
     </item>
