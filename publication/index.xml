@@ -5,12 +5,20 @@
     <link>https://dazhigulov.github.io/publication/</link>
       <atom:link href="https://dazhigulov.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dazhigulov.github.io/media/icon_huacf09b5d8ecef021b61db96768cbd5c1_6432_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://dazhigulov.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Enabling data-driven and bidirectional model development in Verilog-A for photonic devices</title>
+      <link>https://dazhigulov.github.io/publication/opticsexpress2024/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://dazhigulov.github.io/publication/opticsexpress2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Transfer Learning for Subject-Independent ERP-based BCIs</title>
